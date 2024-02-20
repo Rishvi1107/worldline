@@ -17,7 +17,7 @@ pipeline {
             steps {
                 echo "Testing.."
                 bat '''
-                C:\Users\rishv\AppData\Local\Programs\Python\Python311\python.exe 
+                C:/Users/rishv/AppData/Local/Programs/Python/Python311/python.exe 
                 python hello.py
                 '''
             }
